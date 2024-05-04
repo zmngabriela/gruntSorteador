@@ -1,0 +1,61 @@
+@fontPrincipal: Roboto, sans-serif;
+@fontTitle: Lobster, cursive;
+@colorText: #fff;
+@colorBackground: #eb3b5a;
+@colorDetail: #c63852;
+@colorGold: #f5ef81;
+
+body {
+    background-color: @colorBackground;
+    font-family: @fontPrincipal;
+    color: @colorText;
+}
+
+h1 {
+    font-family: @fontTitle;
+    font-size: 3em;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+button, input {
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    background-color: @colorDetail;
+    color: @colorText;
+    border: 2px solid @colorText;
+    border-radius: 8px;
+    font-family: @fontPrincipal;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    margin: 20px 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 50px;
+}
+
+.result {
+    padding: 16px;
+    margin-top: 50px;
+    font-size: 2em;
+    display: none;
+    font-family: @fontTitle;
+    color: @colorGold;
+
+    span {
+        font-weight: bold;
+        display: block;
+    }
+}
