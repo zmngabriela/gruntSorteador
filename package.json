@@ -5,7 +5,7 @@
   "main": "gruntfile.js",
   "scripts": {
     "grunt": "grunt",
-    "build": "grunt build --output-dir public",
+    "build": "grunt build --output-dir --force public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
